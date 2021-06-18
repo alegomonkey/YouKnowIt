@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Saira Condensed'
+}
+
+a {
+  text-decoration: none
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  margin: 0;
+  padding: 3% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: yellow;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-size: max(1rem, 2vw);
+}
+
+.nav-container {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: clamp(300px, 800px)
+}
+
+.nav-container ul {
+  display: flex;
+}
+
+.nav-container li {
+  margin: 0.5rem 0.5rem;
+}
+
+p {
+  display: flex;
+  padding: 15% 2% 50vw 2%
+}
