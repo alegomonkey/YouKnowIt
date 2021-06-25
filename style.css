@@ -48,5 +48,152 @@ li {
 
 p {
   display: flex;
-  padding: 15% 2% 50vw 2%
+}
+
+.P-title {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+  font-size: max(2rem, 2vw);
+}
+
+/* QUESTION 1 AND ANSWER*/
+
+.P1-question {
+  display: flex;
+  background-color: lightgreen;
+  padding: 15% 2% 10vw 2%;
+  justify-content: center;
+  font-size: max(2rem, 2vw);
+}
+
+.P1-Q {
+  display: flex;
+  text-align: center;
+}
+
+.P1-answer {
+  display: flex;
+  background-color: lightgreen;
+  padding: 15% 2% 20vw 2%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.P1-HFA {
+  font-size: max(2rem, 2vw);
+  display: flex;
+  margin: 0 15vw 0 15vw; 
+  justify-content: center;
+  flex-direction: column;
+  background-color: snow;
+}
+
+.P1-HFA p {
+  display: flex;
+  justify-content: center;
+}
+
+.P1-A {
+  display: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.P1-HFA:hover .P1-A {
+  display: flex;
+}
+
+/* QUESTION 2 AND ANSWER*/
+
+.P2-question {
+  display: flex;
+  background-color: lightyellow;
+  padding: 15% 2% 10vw 2%;
+  justify-content: center;
+  font-size: max(2rem, 2vw);
+}
+
+.P2-Q {
+  display: flex;
+  text-align: center;
+}
+
+.P2-answer {
+  display: flex;
+  background-color: lightyellow;
+  padding: 15% 2% 20vw 2%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.P2-HFA {
+  font-size: max(2rem, 2vw);
+  display: flex;
+  margin: 0 15vw 0 15vw;
+  justify-content: center;
+  flex-direction: column;
+  background-color: snow;
+}
+
+.P2-HFA p {
+  display: flex;
+  justify-content: center;
+}
+
+.P2-A {
+  display: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.P2-HFA:hover .P2-A {
+  display: flex;
+}
+
+/* QUESTION 3 AND ANSWER*/
+
+.P3-question {
+  display: flex;
+  background-color: lightblue;
+  padding: 15% 2% 10vw 2%;
+  justify-content: center;
+  font-size: max(2rem, 2vw);
+}
+
+.P3-Q {
+  display: flex;
+  text-align: center;
+}
+
+.P3-answer {
+  display: flex;
+  background-color: lightblue;
+  padding: 15% 2% 20vw 2%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.P3-HFA {
+  font-size: max(2rem, 2vw);
+  display: flex;
+  margin: 0 15vw 0 15vw;
+  justify-content: center;
+  flex-direction: column;
+  background-color: snow;
+}
+
+.P3-HFA p {
+  display: flex;
+  justify-content: center;
+}
+
+.P3-A {
+  display: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.P3-HFA:hover .P3-A {
+  display: flex;
 }
