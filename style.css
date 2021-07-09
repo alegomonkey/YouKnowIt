@@ -43,7 +43,7 @@ li {
 }
 
 .nav-container li {
-  margin: 0.5rem 0.5rem;
+  margin: 0.5rem 1rem;
 }
 
 p {
@@ -57,11 +57,36 @@ p {
   font-size: max(2rem, 2vw);
 }
 
+.drop-down {
+  display: none;
+  position: absolute;
+  top: 60%;
+  z-index: 0;
+  padding: max(0.5rem, 0.25vw);
+  height: auto; 
+  width: auto;
+  background-color:  rgb(235, 198, 167); 
+}
+
+.app-info {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.app-info li {
+  font-size: max(1rem, 1vw);  
+}
+
+.P1DropDown:hover .drop-down{
+  display: block;
+  transition: 1s;
+}
+
 /* QUESTION 1 AND ANSWER*/
 
 .P1-question {
   display: flex;
-  background-color: lightgreen;
   padding: 15% 2% 10vw 2%;
   justify-content: center;
   font-size: max(2rem, 2vw);
@@ -74,7 +99,6 @@ p {
 
 .P1-answer {
   display: flex;
-  background-color: lightgreen;
   padding: 15% 2% 20vw 2%;
   justify-content: center;
   flex-direction: column;
@@ -102,6 +126,62 @@ p {
 
 .P1-HFA:hover .P1-A {
   display: flex;
+}
+
+.P1-HistoryPeople {
+  background-color: violet;
+}
+
+.P1-MoviesTelevision {
+  background-color: burlywood;
+}
+
+.P1-MusicMusicians {
+  background-color: lightsalmon;
+}
+
+.P1-NationsLocations {
+  background-color: lightskyblue;
+}
+
+.P1-SportsGames {
+  background-color: brown;
+}
+
+.P1-ScienceTechnology {
+  background-color: forestgreen;
+}
+
+.P1-PoetryProse {
+  background-color: darkblue;
+}
+
+.P1-PopCultureCelebrities {
+  background-color: palevioletred;
+}
+
+.P1-Wild {
+  -webkit-animation: colorchange 20s infinite;
+        animation: colorchange 20s infinite;
+      }
+      @-webkit-keyframes colorchange {
+        0% {
+          background: red;
+        }
+        25% {
+          background: yellow;
+        }
+        50% {
+          background: green;
+        }
+        75% {
+          background: blue;
+        }
+        100% {
+          background: purple;
+        }
+      
+      }
 }
 
 /* QUESTION 2 AND ANSWER*/
