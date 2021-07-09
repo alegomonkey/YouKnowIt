@@ -161,27 +161,43 @@ p {
 }
 
 .P1-Wild {
-  -webkit-animation: colorchange 20s infinite;
-        animation: colorchange 20s infinite;
+  -webkit-animation: colorchange 7s infinite;
+        animation: colorchange 7s infinite;
       }
       @-webkit-keyframes colorchange {
         0% {
           background: red;
         }
-        25% {
+        30% {
           background: yellow;
         }
-        50% {
+        55% {
           background: green;
         }
-        75% {
+        80% {
           background: blue;
         }
         100% {
           background: purple;
         }
-      
       }
+      
+      @-webkit-keyframes colorchange {
+        0% {
+          background: purple;
+        }
+        15% {
+          background: red;
+        }
+        45% {
+          background: yellow;
+        }
+        75% {
+          background: green;
+        }
+        100% {
+          background: blue;
+        }
 }
 
 /* QUESTION 2 AND ANSWER*/
