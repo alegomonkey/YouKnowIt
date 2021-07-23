@@ -50,13 +50,6 @@ p {
   display: flex;
 }
 
-.P-title {
-  display: flex;
-  justify-content: center;
-  background-color: purple;
-  font-size: max(2rem, 2vw);
-}
-
 .drop-down {
   display: none;
   position: absolute;
@@ -84,6 +77,13 @@ p {
 }
 
 /* QUESTION 1 AND ANSWER*/
+
+.P-title1 {
+  display: flex;
+  justify-content: center;
+  background-color: limegreen;
+  font-size: max(2rem, 2vw);
+}
 
 .P1-question {
   display: flex;
@@ -202,6 +202,13 @@ p {
 
 /* QUESTION 2 AND ANSWER*/
 
+.P-title2 {
+  display: flex;
+  justify-content: center;
+  background-color: lightgoldenrodyellow;
+  font-size: max(2rem, 2vw);
+}
+
 .P2-question {
   display: flex;
   background-color: lightyellow;
@@ -248,6 +255,13 @@ p {
 }
 
 /* QUESTION 3 AND ANSWER*/
+
+.P-title3 {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  font-size: max(2rem, 2vw);
+}
 
 .P3-question {
   display: flex;
