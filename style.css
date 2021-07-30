@@ -16,13 +16,35 @@ li {
 
 .header-container {
   margin: 0;
-  padding: 3% 5%;
+  padding: 2% 5%;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
   background-color: yellow;
+}
+
+.TopHeader {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+.Phases {
+  display: flex; 
+}
+
+.P1DropDown {
+  display: flex;
+  padding: 0 0.5rem;
+}
+
+.Website {
+  display: flex;
+  padding: 0 3rem;
 }
 
 .logo-container {
@@ -42,38 +64,17 @@ li {
   display: flex;
 }
 
-.nav-container li {
-  margin: 0.5rem 1rem;
-}
-
 p {
   display: flex;
 }
 
-.drop-down {
-  display: none;
-  position: absolute;
-  top: 60%;
-  z-index: 0;
-  padding: max(0.5rem, 0.25vw);
-  height: auto; 
-  width: auto;
-  background-color:  rgb(235, 198, 167); 
-}
-
-.app-info {
+.CardTypes {
   display: flex;
-  flex-direction: column;
-  padding: 0;
 }
 
-.app-info li {
-  font-size: max(1rem, 1vw);  
-}
-
-.P1DropDown:hover .drop-down{
-  display: block;
-  transition: 1s;
+.CardTypes li {
+  font-size: max(0.5rem, 1vw); 
+  padding: 0 0.2rem;
 }
 
 /* QUESTION 1 AND ANSWER*/
