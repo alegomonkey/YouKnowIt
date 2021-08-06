@@ -77,20 +77,55 @@ p {
   padding: 0 0.2rem;
 }
 
+.CardHolder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.DefaultCard {
+  width: 50%;
+  height: 50%;
+}
+
+.DefaultCardWild {
+  width: 100%;
+}
+
+.CardIdent{
+  display: flex;
+  padding: 3% 0 1% 0; 
+  justify-content: center;
+  font-size: max(1rem, 1vw);
+  font-weight: bold;
+}
 /* QUESTION 1 AND ANSWER*/
 
 .P-title1 {
   display: flex;
   justify-content: center;
   background-color: limegreen;
-  font-size: max(2rem, 2vw);
+  font-size: max(1rem, 1vw);
+}
+
+.P-title2 {
+  display: flex;
+  justify-content: center;
+  background-color: lightyellow;
+  font-size: max(1rem, 1vw);
+}
+
+.P-title3 {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  font-size: max(1rem, 1vw);
 }
 
 .P1-question {
   display: flex;
-  padding: 15% 2% 10vw 2%;
+  padding: 2%;
   justify-content: center;
-  font-size: max(2rem, 2vw);
+  font-size: max(1rem, 1vw);
 }
 
 .P1-Q {
@@ -100,13 +135,13 @@ p {
 
 .P1-answer {
   display: flex;
-  padding: 15% 2% 20vw 2%;
+  padding: 2% 0 10% 0;
   justify-content: center;
   flex-direction: column;
 }
 
 .P1-HFA {
-  font-size: max(2rem, 2vw);
+  font-size: max(1rem, 1vw);
   display: flex;
   margin: 0 15vw 0 15vw; 
   justify-content: center;
@@ -199,112 +234,4 @@ p {
         100% {
           background: blue;
         }
-}
-
-/* QUESTION 2 AND ANSWER*/
-
-.P-title2 {
-  display: flex;
-  justify-content: center;
-  background-color: lightgoldenrodyellow;
-  font-size: max(2rem, 2vw);
-}
-
-.P2-question {
-  display: flex;
-  background-color: lightyellow;
-  padding: 15% 2% 10vw 2%;
-  justify-content: center;
-  font-size: max(2rem, 2vw);
-}
-
-.P2-Q {
-  display: flex;
-  text-align: center;
-}
-
-.P2-answer {
-  display: flex;
-  background-color: lightyellow;
-  padding: 15% 2% 20vw 2%;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.P2-HFA {
-  font-size: max(2rem, 2vw);
-  display: flex;
-  margin: 0 15vw 0 15vw;
-  justify-content: center;
-  flex-direction: column;
-  background-color: snow;
-}
-
-.P2-HFA p {
-  display: flex;
-  justify-content: center;
-}
-
-.P2-A {
-  display: none;
-  text-align: center;
-  justify-content: center;
-}
-
-.P2-HFA:hover .P2-A {
-  display: flex;
-}
-
-/* QUESTION 3 AND ANSWER*/
-
-.P-title3 {
-  display: flex;
-  justify-content: center;
-  background-color: lightblue;
-  font-size: max(2rem, 2vw);
-}
-
-.P3-question {
-  display: flex;
-  background-color: lightblue;
-  padding: 15% 2% 10vw 2%;
-  justify-content: center;
-  font-size: max(2rem, 2vw);
-}
-
-.P3-Q {
-  display: flex;
-  text-align: center;
-}
-
-.P3-answer {
-  display: flex;
-  background-color: lightblue;
-  padding: 15% 2% 20vw 2%;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.P3-HFA {
-  font-size: max(2rem, 2vw);
-  display: flex;
-  margin: 0 15vw 0 15vw;
-  justify-content: center;
-  flex-direction: column;
-  background-color: snow;
-}
-
-.P3-HFA p {
-  display: flex;
-  justify-content: center;
-}
-
-.P3-A {
-  display: none;
-  text-align: center;
-  justify-content: center;
-}
-
-.P3-HFA:hover .P3-A {
-  display: flex;
 }
