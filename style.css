@@ -83,6 +83,7 @@ p {
 }
 
 .DefaultCard {
+  diaplay: table; 
   width: 50%;
   height: 50%;
 }
@@ -135,7 +136,7 @@ p {
 
 .P1-answer {
   display: flex;
-  padding: 2% 0 10% 0;
+  padding: 2% 0 2% 0;
   justify-content: center;
   flex-direction: column;
 }
